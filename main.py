@@ -1,7 +1,7 @@
 
 from gtts import gTTS
 import os
-fp = open("text.txt", "r")
+fp = open("text3.txt", "r")
 mytext = fp.read().replace("\n", "")
 language = 'ar'
 output = gTTS(text=mytext,lang=language,slow=False)
